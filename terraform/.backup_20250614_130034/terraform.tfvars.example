@@ -1,0 +1,35 @@
+# Raspberry Pi Optimized Configuration
+# This configuration is optimized for Pi-based management
+
+# REQUIRED: Your email for notifications
+notification_email = "RRCloudDev@gmail.com"
+# COST OPTIMIZATION: Pi edition defaults to minimal costs
+development_mode = true
+enable_nat_gateway = false  # Save ~$135/month
+enable_multi_az = false     # Save ~50% on database costs
+
+# Instance types (minimal for cost efficiency)
+instance_types = {
+  web_tier = "t3.micro"    # $8.50/month each
+  app_tier = "t3.micro"    # $8.50/month each  
+  bastion  = "t3.nano"     # $4.25/month
+}
+
+# Database optimization
+database_instance_class = "db.t3.micro"  # Smallest available
+backup_retention_days = 1                # Minimum for cost savings
+
+# Pi-friendly settings
+pi_managed = true                    # Special flag for Pi optimizations
+terraform_parallelism = 2            # Reduced for Pi CPU/memory
+enable_detailed_monitoring = false   # Reduce API calls
+
+# Tagging for Pi management
+common_tags = {
+  Environment = "certification-lab"
+  Project     = "aws-cert-prep"
+  ManagedBy   = "raspberry-pi"
+  Owner       = "Ryan"
+  CostCenter  = "learning"
+  DeviceType  = "edge-managed"
+}

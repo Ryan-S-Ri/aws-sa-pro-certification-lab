@@ -1,0 +1,27 @@
+# AWS SA Pro Lab Configuration
+# Copy this to terraform.tfvars and customize
+
+project_name = "sa-pro-lab"
+environment  = "lab"
+
+# Regions
+primary_region = "us-east-1"
+dr_region     = "us-west-2"
+
+# Enable/disable components
+enable_shared_infrastructure = true
+enable_domain1              = false
+enable_domain2              = false
+enable_domain3              = false
+enable_domain4              = false
+
+# Notifications
+notification_email = "your-email@example.com"
+
+# Tags
+common_tags = {
+  Terraform    = "true"
+  Purpose      = "aws-certification-lab"
+  Owner        = "your-name"
+  CostCenter   = "training"
+}

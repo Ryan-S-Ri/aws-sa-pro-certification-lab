@@ -1,0 +1,216 @@
+# compatibility.tf - Maps study-config toggles to domain-based architecture
+# Place this in your root directory alongside main.tf
+
+locals {
+  # Map study-config toggles to domain enables
+  
+  # Domain 1: Organizational Complexity (Security & Governance)
+  enable_domain1_computed = (
+    var.enable_security_features ||
+    var.enable_advanced_iam ||
+    var.enable_aws_config ||
+    var.enable_cloudtrail ||
+    var.enable_organizations ||
+    var.enable_cross_account_roles
+  )
+  
+  # Domain 2: New Solutions (Compute, Resilience, Microservices)
+  enable_domain2_computed = (
+    var.enable_compute_tier ||
+    var.enable_auto_scaling_advanced ||
+    var.enable_elastic_load_balancing ||
+    var.enable_lambda ||
+    var.enable_api_gateway ||
+    var.enable_microservices
+  )
+  
+  # Domain 3: Continuous Improvement (Monitoring, Security, Performance)
+  enable_domain3_computed = (
+    var.enable_monitoring_tier ||
+    var.enable_guardduty ||
+    var.enable_security_hub ||
+    var.enable_inspector ||
+    var.enable_cost_monitoring ||
+    var.enable_performance_insights
+  )
+  
+  # Domain 4: Migration & Modernization (Databases, Containers, Migration)
+  enable_domain4_computed = (
+    var.enable_database_tier ||
+    var.enable_dms ||
+    var.enable_containerization ||
+    var.enable_serverless_transformation ||
+    var.enable_data_lake
+  )
+}
+
+# Override the domain enables in main.tf with computed values
+module "domain1" {
+  source = "./domains/domain1-organizational-complexity"
+  count  = local.enable_domain1_computed ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Map specific features
+  enable_organizations    = var.enable_organizations
+  enable_transit_gateway  = var.enable_transit_gateway || var.enable_advanced_networking
+  enable_service_catalog  = var.enable_service_catalog
+  
+  # Dependencies
+  vpc_id     = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+}
+
+module "domain2" {
+  source = "./domains/domain2-new-solutions"
+  count  = local.enable_domain2_computed ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Map specific features
+  enable_lambda        = var.enable_lambda || var.enable_serverless
+  enable_auto_scaling  = var.enable_auto_scaling_advanced
+  enable_multi_region  = var.enable_disaster_recovery
+  
+  # Dependencies
+  vpc_id            = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids        = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+  public_subnet_ids = var.enable_shared_infrastructure ? module.shared_infrastructure[0].public_subnet_ids : []
+}
+
+module "domain3" {
+  source = "./domains/domain3-continuous-improvement"
+  count  = local.enable_domain3_computed ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Map specific features
+  enable_security_hub          = var.enable_security_hub
+  enable_guardduty            = var.enable_guardduty
+  enable_inspector            = var.enable_inspector
+  enable_compute_optimizer    = var.enable_reserved_instances_recommendations
+  enable_performance_insights_demo = var.enable_database_performance_insights
+  
+  # Dependencies
+  vpc_id               = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  db_subnet_group_name = var.enable_shared_infrastructure ? module.shared_infrastructure[0].db_subnet_group_name : ""
+  notification_email   = var.notification_email
+  asg_name            = local.enable_domain2_computed && length(module.domain2) > 0 ? module.domain2[0].autoscaling_group_name : ""
+}
+
+module "domain4" {
+  source = "./domains/domain4-migration-modernization"
+  count  = local.enable_domain4_computed ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Map specific features
+  enable_dms              = var.enable_database_migration || var.enable_dms
+  enable_migration_hub    = var.enable_migration_tools
+  enable_containerization = var.enable_ecs || var.enable_containerization
+  
+  # Dependencies
+  vpc_id            = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids        = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+  public_subnet_ids = var.enable_shared_infrastructure ? module.shared_infrastructure[0].public_subnet_ids : []
+  db_subnet_group_name = var.enable_shared_infrastructure ? module.shared_infrastructure[0].db_subnet_group_name : ""
+}
+
+# Additional variables needed for compatibility
+variable "enable_organizations" {
+  description = "Enable AWS Organizations"
+  type        = bool
+  default     = false
+}
+
+variable "enable_transit_gateway" {
+  description = "Enable Transit Gateway"
+  type        = bool
+  default     = false
+}
+
+variable "enable_service_catalog" {
+  description = "Enable Service Catalog"
+  type        = bool
+  default     = false
+}
+
+variable "enable_lambda" {
+  description = "Enable Lambda functions"
+  type        = bool
+  default     = false
+}
+
+variable "enable_api_gateway" {
+  description = "Enable API Gateway"
+  type        = bool
+  default     = false
+}
+
+variable "enable_microservices" {
+  description = "Enable microservices architecture"
+  type        = bool
+  default     = false
+}
+
+variable "enable_serverless" {
+  description = "Enable serverless components"
+  type        = bool
+  default     = false
+}
+
+variable "enable_dms" {
+  description = "Enable Database Migration Service"
+  type        = bool
+  default     = false
+}
+
+variable "enable_database_migration" {
+  description = "Enable database migration tools"
+  type        = bool
+  default     = false
+}
+
+variable "enable_migration_tools" {
+  description = "Enable migration tools"
+  type        = bool
+  default     = false
+}
+
+variable "enable_ecs" {
+  description = "Enable ECS"
+  type        = bool
+  default     = false
+}
+
+variable "enable_containerization" {
+  description = "Enable containerization"
+  type        = bool
+  default     = false
+}
+
+variable "enable_serverless_transformation" {
+  description = "Enable serverless transformation"
+  type        = bool
+  default     = false
+}
+
+variable "enable_data_lake" {
+  description = "Enable data lake"
+  type        = bool
+  default     = false
+}
+
+variable "enable_performance_insights" {
+  description = "Enable performance insights"
+  type        = bool
+  default     = false
+}

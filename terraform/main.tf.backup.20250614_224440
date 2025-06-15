@@ -1,0 +1,111 @@
+# AWS SA Pro Lab - Main Orchestrator
+# This file orchestrates the deployment of domain-specific infrastructure
+
+terraform {
+  required_version = ">= 1.0"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+  }
+}
+
+# Provider Configuration
+provider "aws" {
+  region = var.primary_region
+  
+  default_tags {
+    tags = merge(
+      var.common_tags,
+      {
+        Environment = var.environment
+        Project     = "aws-sa-pro-lab"
+      }
+    )
+  }
+}
+
+# Provider for DR region
+provider "aws" {
+  alias  = "dr"
+  region = var.dr_region
+  
+  default_tags {
+    tags = merge(
+      var.common_tags,
+      {
+        Environment = var.environment
+        Project     = "aws-sa-pro-lab"
+        Region      = "dr"
+      }
+    )
+  }
+}
+
+# Shared Infrastructure
+module "shared_infrastructure" {
+  source = "./shared-infrastructure"
+  count  = var.enable_shared_infrastructure ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  primary_region  = var.primary_region
+  dr_region      = var.dr_region
+  common_tags    = var.common_tags
+}
+
+# Domain 1: Organizational Complexity
+module "domain1" {
+  source = "./domains/domain1-organizational-complexity"
+  count  = var.enable_domain1 ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Dependencies from shared infrastructure
+  vpc_id          = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids      = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+}
+
+# Domain 2: New Solutions
+module "domain2" {
+  source = "./domains/domain2-new-solutions"
+  count  = var.enable_domain2 ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Dependencies
+  vpc_id          = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids      = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+}
+
+# Domain 3: Continuous Improvement
+module "domain3" {
+  source = "./domains/domain3-continuous-improvement"
+  count  = var.enable_domain3 ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Dependencies
+  vpc_id          = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+}
+
+# Domain 4: Migration and Modernization
+module "domain4" {
+  source = "./domains/domain4-migration-modernization"
+  count  = var.enable_domain4 ? 1 : 0
+  
+  project_name    = var.project_name
+  environment     = var.environment
+  common_tags     = var.common_tags
+  
+  # Dependencies
+  vpc_id          = var.enable_shared_infrastructure ? module.shared_infrastructure[0].vpc_id : ""
+  subnet_ids      = var.enable_shared_infrastructure ? module.shared_infrastructure[0].private_subnet_ids : []
+}

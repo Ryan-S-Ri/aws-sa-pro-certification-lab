@@ -1,0 +1,1376 @@
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.database.aws_rds_cluster_parameter_group.aurora_postgresql its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_rds_cluster_parameter_group.aurora_postgresql, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_apigatewayv2_stage.default its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_apigatewayv2_stage.default, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_cloudwatch_event_bus.custom its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_cloudwatch_event_bus.custom, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_permission.eventbridge its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_permission.eventbridge, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_db_parameter_group.aurora_mysql its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_db_parameter_group.aurora_mysql, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_efs_file_system.shared_storage its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_efs_file_system.shared_storage, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_autoscaling_group.web_asg its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_autoscaling_group.web_asg, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_metric_alarm.ec2_high_cpu its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_metric_alarm.ec2_high_cpu, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.compute.aws_iam_role_policy_attachment.ec2_cloudwatch_policy its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_iam_role_policy_attachment.ec2_cloudwatch_policy, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_function.api_handler its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_function.api_handler, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_deployment.main its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_deployment.main, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_function.scheduled_task its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_function.scheduled_task, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_dynamodb_table.sessions its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_dynamodb_table.sessions, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role.lambda_execution its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role.lambda_execution, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_dashboard.main its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_dashboard.main, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_sns_topic.notifications its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_sns_topic.notifications, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_subnet.private its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_subnet.private, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_dynamodb_table.app_data its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_dynamodb_table.app_data, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_rds_cluster.aurora_mysql its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_rds_cluster.aurora_mysql, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_cloudwatch_event_rule.scheduled its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_cloudwatch_event_rule.scheduled, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_autoscaling_policy.web_scale_down its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_autoscaling_policy.web_scale_down, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_key_pair.main its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_key_pair.main, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_vpc.primary its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_vpc.primary, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb.web_alb its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb.web_alb, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.data.aws_rds_engine_version.aurora_postgresql
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.data.aws_rds_engine_version.aurora_postgresql, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_budgets_budget.monthly its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_budgets_budget.monthly, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.storage.aws_s3_bucket.main its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.storage.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.storage.aws_s3_bucket.main, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret_version.mysql_master_password its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret_version.mysql_master_password,
+[31m│[0m [0mafter which you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_iam_instance_profile.ec2_profile its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_iam_instance_profile.ec2_profile, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role_policy.lambda_custom its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role_policy.lambda_custom, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.security.aws_secretsmanager_secret.db_password its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.security.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.security.aws_secretsmanager_secret.db_password, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_security_group.alb_sg its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_security_group.alb_sg, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_layer_version.common_libs its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_layer_version.common_libs, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_apigatewayv2_api.http its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_apigatewayv2_api.http, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.data.aws_rds_engine_version.aurora_mysql its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.data.aws_rds_engine_version.aurora_mysql, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_event_rule.ec2_state_change
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_event_rule.ec2_state_change, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_s3_bucket_versioning.lambda_artifacts
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_s3_bucket_versioning.lambda_artifacts, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_route_table.public its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_route_table.public, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_rds_cluster_parameter_group.aurora_mysql
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_rds_cluster_parameter_group.aurora_mysql, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb_target_group.app_tg its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb_target_group.app_tg, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.database.aws_iam_role_policy_attachment.rds_enhanced_monitoring its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_iam_role_policy_attachment.rds_enhanced_monitoring,
+[31m│[0m [0mafter which you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb_listener.web_listener its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb_listener.web_listener, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_event_target.ec2_state_change_sns its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_event_target.ec2_state_change_sns, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.security.aws_secretsmanager_secret_version.db_password
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.security.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.security.aws_secretsmanager_secret_version.db_password, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_permission.api_gateway its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_permission.api_gateway, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.data.aws_ami.amazon_linux its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.data.aws_ami.amazon_linux, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_autoscaling_group.app_asg its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_autoscaling_group.app_asg, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_cloudwatch_event_target.lambda its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_cloudwatch_event_target.lambda, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_sns_topic_subscription.email_cost_alerts
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_sns_topic_subscription.email_cost_alerts, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_log_group.application its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_log_group.application, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_subnet.public its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_subnet.public, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_function.event_processor its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_function.event_processor, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_iam_role_policy.ec2_custom_policy its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_iam_role_policy.ec2_custom_policy, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_sqs_queue.dlq its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_sqs_queue.dlq, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_instance.bastion its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_instance.bastion, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_flow_log.vpc its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_flow_log.vpc, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_autoscaling_policy.app_target_tracking its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_autoscaling_policy.app_target_tracking, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.data.aws_availability_zones.available its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.data.aws_availability_zones.available, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_stage.main its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_stage.main, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_dynamodb_table.main its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_dynamodb_table.main, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb_listener.app_listener its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb_listener.app_listener, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_elasticache_subnet_group.primary its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_elasticache_subnet_group.primary, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_iam_role.ec2_role its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_iam_role.ec2_role, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_sns_topic_subscription.email its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_sns_topic_subscription.email, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret_version.redis_auth_token its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret_version.redis_auth_token, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_integration.lambda its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_integration.lambda, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb_target_group.web_tg its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb_target_group.web_tg, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_resource.items its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_resource.items, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_apigatewayv2_integration.lambda_http its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_apigatewayv2_integration.lambda_http, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_kms_alias.monitoring its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_kms_alias.monitoring, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_log_group.vpc_flow_logs its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_log_group.vpc_flow_logs, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_event_source_mapping.sqs_trigger
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_event_source_mapping.sqs_trigger, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_lambda_permission.http_api its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_permission.http_api, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.security.aws_security_group.lambda its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.security.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.security.aws_security_group.lambda, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_launch_template.app_tier its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_launch_template.app_tier, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_kms_key.monitoring its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_kms_key.monitoring, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_security_group.aurora_mysql its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_security_group.aurora_mysql, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role_policy_attachment.lambda_basic
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role_policy_attachment.lambda_basic, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_lb.app_nlb its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_lb.app_nlb, after which you can remove the provider
+[31m│[0m [0mconfiguration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role_policy.step_functions its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role_policy.step_functions, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role_policy_attachment.lambda_vpc
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role_policy_attachment.lambda_vpc, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_db_subnet_group.primary its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_db_subnet_group.primary, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_method.get_items its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_method.get_items, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_security_group.aurora_postgresql its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_security_group.aurora_postgresql, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret.mysql_master_password its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret.mysql_master_password, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_autoscaling_policy.web_scale_up its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_autoscaling_policy.web_scale_up, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_api_gateway_rest_api.main its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_api_gateway_rest_api.main, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_kms_alias.database its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_kms_alias.database, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_security_group.elasticache its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_security_group.elasticache, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_s3_bucket.lambda_artifacts its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_s3_bucket.lambda_artifacts, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_security_group.efs_sg its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_security_group.efs_sg, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_security_group.bastion_sg its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_security_group.bastion_sg, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_iam_role.vpc_flow_logs its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_iam_role.vpc_flow_logs, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_efs_mount_target.shared_storage its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_efs_mount_target.shared_storage, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_sns_topic.alerts its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_sns_topic.alerts, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_secretsmanager_secret.redis_auth_token its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_secretsmanager_secret.redis_auth_token, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_security_group.lambda its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_security_group.lambda, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_sfn_state_machine.workflow its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_sfn_state_machine.workflow, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_sqs_queue.processing_queue its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_sqs_queue.processing_queue, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with
+[31m│[0m [0mmodule.serverless.aws_lambda_event_source_mapping.dynamodb_trigger its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_lambda_event_source_mapping.dynamodb_trigger, after
+[31m│[0m [0mwhich you can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_cloudwatch_metric_alarm.rds_cpu its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_cloudwatch_metric_alarm.rds_cpu, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_iam_role.rds_enhanced_monitoring its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_iam_role.rds_enhanced_monitoring, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_rds_cluster_instance.aurora_mysql its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_rds_cluster_instance.aurora_mysql, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_apigatewayv2_route.get_items its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_apigatewayv2_route.get_items, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_iam_role_policy.vpc_flow_logs its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_iam_role_policy.vpc_flow_logs, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_sns_topic_subscription.email_alerts its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_sns_topic_subscription.email_alerts, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_internet_gateway.primary its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_internet_gateway.primary, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.networking.aws_route_table_association.public its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.networking.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.networking.aws_route_table_association.public, after which you can
+[31m│[0m [0mremove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_launch_template.web_tier its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_launch_template.web_tier, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_elasticache_replication_group.redis its
+[31m│[0m [0moriginal provider configuration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_elasticache_replication_group.redis, after which you
+[31m│[0m [0mcan remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.compute.aws_iam_role_policy_attachment.ec2_ssm_policy
+[31m│[0m [0mits original provider configuration at
+[31m│[0m [0mmodule.compute.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.compute.aws_iam_role_policy_attachment.ec2_ssm_policy, after which
+[31m│[0m [0myou can remove the provider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.database.aws_kms_key.database its original provider
+[31m│[0m [0mconfiguration at
+[31m│[0m [0mmodule.database.provider["registry.terraform.io/hashicorp/aws"].primary is
+[31m│[0m [0mrequired, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.database.aws_kms_key.database, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.monitoring.aws_sns_topic.cost_alerts its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.monitoring.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.monitoring.aws_sns_topic.cost_alerts, after which you can remove the
+[31m│[0m [0mprovider configuration again.
+[31m╵[0m[0m
+[31m╷[0m[0m
+[31m│[0m [0m[1m[31mError: [0m[0m[1mProvider configuration not present[0m
+[31m│[0m [0m
+[31m│[0m [0m[0mTo work with module.serverless.aws_iam_role.step_functions its original
+[31m│[0m [0mprovider configuration at
+[31m│[0m [0mmodule.serverless.provider["registry.terraform.io/hashicorp/aws"].primary
+[31m│[0m [0mis required, but it has been removed. This occurs when a provider
+[31m│[0m [0mconfiguration is removed while objects created by that provider still exist
+[31m│[0m [0min the state. Re-add the provider configuration to destroy
+[31m│[0m [0mmodule.serverless.aws_iam_role.step_functions, after which you can remove
+[31m│[0m [0mthe provider configuration again.
+[31m╵[0m[0m

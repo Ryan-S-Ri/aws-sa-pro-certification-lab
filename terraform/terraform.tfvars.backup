@@ -1,0 +1,32 @@
+# Default values for variables
+project_name = "lab"
+aws_region   = "us-east-1"
+
+# Enable only basic modules to start
+enable_networking = true
+enable_security   = true
+enable_compute    = false
+enable_database   = false
+enable_storage    = false
+enable_serverless = false
+enable_monitoring = false
+
+# Networking configuration
+vpc_cidr           = "10.0.0.0/16"
+availability_zones = ["us-east-1a", "us-east-1b"]
+enable_nat_gateway = false
+
+# Security configuration
+enable_web_sg      = true
+enable_database_sg = false
+
+# Monitoring configuration
+enable_detailed_monitoring = false
+alarm_email               = ""
+
+common_tags = {
+  Terraform   = "true"
+  Environment = "lab"
+  ManagedBy   = "terraform"
+  Project     = "lab"
+}

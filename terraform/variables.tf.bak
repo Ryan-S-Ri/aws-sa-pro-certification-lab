@@ -1,0 +1,158 @@
+variable "project_name" {
+  description = "Name of the project"
+  type        = string
+  default     = "sa-pro-lab"
+}
+
+variable "environment" {
+  description = "Environment name"
+  type        = string
+  default     = "lab"
+}
+
+variable "primary_region" {
+  description = "Primary AWS region"
+  type        = string
+  default     = "us-east-1"
+}
+
+variable "dr_region" {
+  description = "Disaster recovery region"
+  type        = string
+  default     = "us-west-2"
+}
+
+variable "common_tags" {
+  description = "Common tags for all resources"
+  type        = map(string)
+  default     = {
+    Terraform = "true"
+    Purpose   = "aws-certification-lab"
+  }
+}
+
+# Domain toggles
+variable "enable_shared_infrastructure" {
+  description = "Enable shared infrastructure deployment"
+  type        = bool
+  default     = true
+}
+
+variable "enable_domain1" {
+  description = "Enable Domain 1: Organizational Complexity"
+  type        = bool
+  default     = false
+}
+
+variable "enable_domain2" {
+  description = "Enable Domain 2: New Solutions"
+  type        = bool
+  default     = false
+}
+
+variable "enable_domain3" {
+  description = "Enable Domain 3: Continuous Improvement"
+  type        = bool
+  default     = false
+}
+
+variable "enable_domain4" {
+  description = "Enable Domain 4: Migration and Modernization"
+  type        = bool
+  default     = false
+}
+
+# Notification settings
+variable "notification_email" {
+  description = "Email for notifications"
+  type        = string
+  default     = ""
+}
+# Study config compatibility variables
+variable "enable_security_features" {
+  description = "Enable security features"
+  type        = bool
+  default     = false
+}
+
+variable "enable_compute_tier" {
+  description = "Enable compute tier"
+  type        = bool
+  default     = false
+}
+
+variable "enable_database_tier" {
+  description = "Enable database tier"
+  type        = bool
+  default     = false
+}
+
+variable "enable_monitoring_tier" {
+  description = "Enable monitoring tier"
+  type        = bool
+  default     = false
+}
+
+variable "enable_advanced_networking" {
+  description = "Enable advanced networking"
+  type        = bool
+  default     = false
+}
+
+variable "enable_disaster_recovery" {
+  description = "Enable disaster recovery"
+  type        = bool
+  default     = false
+}
+
+variable "enable_security_tier" {
+  description = "Enable security tier"
+  type        = bool
+  default     = false
+}
+
+# Add other variables referenced in study configs
+variable "notification_email" {
+  description = "Email for notifications"
+  type        = string
+  default     = ""
+}
+
+variable "mysql_master_password" {
+  description = "MySQL master password"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
+variable "enable_waf" {
+  default = false
+}
+
+variable "enable_shield" {
+  default = false
+}
+
+variable "enable_inspector" {
+  default = false
+}
+
+variable "enable_guardduty" {
+  default = false
+}
+
+variable "enable_config" {
+  default = false
+}
+
+variable "enable_cloudtrail" {
+  default = false
+}
+
+variable "enable_kms_advanced" {
+  default = false
+}
+
+variable "enable_vpc_flow_logs" {
+  default = false
+}

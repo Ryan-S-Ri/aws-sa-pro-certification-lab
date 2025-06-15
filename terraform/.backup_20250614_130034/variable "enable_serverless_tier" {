@@ -1,0 +1,28 @@
+variable "enable_serverless_tier" {
+  description = "Enable serverless tier"
+  type        = bool
+  default     = true
+}
+
+variable "enable_api_gateway" {
+  description = "Enable API Gateway"
+  type        = bool
+  default     = true
+}
+
+locals {
+  env_config = {
+    dev = {
+      stage_name = "dev"
+      api_name   = "dev-api"
+    }
+    staging = {
+      stage_name = "staging"
+      api_name   = "staging-api"
+    }
+    prod = {
+      stage_name = "prod"
+      api_name   = "prod-api"
+    }
+  }
+}

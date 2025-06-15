@@ -1,0 +1,105 @@
+# Main Terraform configuration for AWS Certification Lab (Pi Edition)
+terraform {
+  required_version = ">= 1.0"
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
+    }
+    tls = {
+      source  = "hashicorp/tls"
+      version = "~> 4.0"
+    }
+    local = {
+      source  = "hashicorp/local"
+      version = "~> 2.0"
+    }
+  }
+}
+
+# Provider configuration
+provider "aws" {
+
+# Testbed provider for multi-region scenarios
+provider "aws" {
+  alias  = "testbed"
+  region = var.testbed_region
+  default_tags {
+    tags = var.common_tags
+  }
+}
+  region = var.primary_region
+
+# Testbed provider for multi-region scenarios
+provider "aws" {
+  alias  = "testbed"
+  region = var.testbed_region
+  default_tags {
+    tags = var.common_tags
+  }
+}
+  default_tags {
+
+# Testbed provider for multi-region scenarios
+provider "aws" {
+  alias  = "testbed"
+  region = var.testbed_region
+  default_tags {
+    tags = var.common_tags
+  }
+}
+    tags = var.common_tags
+
+# Testbed provider for multi-region scenarios
+provider "aws" {
+  alias  = "testbed"
+  region = var.testbed_region
+  default_tags {
+    tags = var.common_tags
+  }
+}
+  }
+
+# Testbed provider for multi-region scenarios
+provider "aws" {
+  alias  = "testbed"
+  region = var.testbed_region
+  default_tags {
+    tags = var.common_tags
+  }
+}
+}
+
+# Testbed provider for multi-region scenarios
+
+# Networking AWS Provider
+provider "aws" {
+  alias  = "networking"
+  region = "us-east-2"
+  
+  default_tags {
+    tags = var.common_tags
+  }
+}
+
+# Primary AWS Provider
+provider "aws" {
+  alias  = "primary"
+  region = "us-east-1"
+  
+  default_tags {
+    tags = var.common_tags
+  }
+}
+
+# Testbed AWS Provider
+provider "aws" {
+  alias  = "testbed"
+  region = "us-east-2"
+  
+  default_tags {
+    tags = var.common_tags
+  }
+}
+
+# Networking AWS Provider
