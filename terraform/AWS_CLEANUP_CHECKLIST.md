@@ -3,7 +3,7 @@
 ## Resources to manually delete in AWS Console:
 
 ### 1. EC2 Resources
-- [ ] Terminate all EC2 instances
+-  Terminate all EC2 instances
 - [ ] Delete all Auto Scaling Groups
 - [ ] Delete all Launch Templates
 - [ ] Delete all Load Balancers (ALB, NLB)
